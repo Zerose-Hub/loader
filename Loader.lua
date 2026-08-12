@@ -55,16 +55,16 @@ if not url then
 end
 
 -- 4) Fetch, compile, run
-local code, fetchErr = pcall(function()
+local ok, fetched = pcall(function()
 	return game:HttpGet(url)
 end)
 
-if not code then
-	warn("[Zerose Hub] Failed to fetch script:", fetchErr)
+if not ok then
+	warn("[Zerose Hub] Failed to fetch script:", tostring(fetched))
 	return
 end
 
-local fn, compileErr = loadstring(code)
+local fn, compileErr = loadstring(fetched)
 if not fn then
 	warn("[Zerose Hub] Failed to compile script:", compileErr)
 	return
