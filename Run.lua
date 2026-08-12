@@ -33,8 +33,8 @@ local UI_LOADER = "https://raw.githubusercontent.com/Zerose-Hub/loader/refs/head
 --      - a dply.me paste id (e.g. "abc123" -> https://api.dply.me/abc123/raw)
 local Scripts = {
 	-- Anime Dungeons (by PlaceId)
-	[70863683083739] = { name = "Anime Dungeons", script_id = "https://raw.githubusercontent.com/<YOUR_USERNAME>/<YOUR_REPO>/main/ZeroseHub_Loader.lua" },
-	-- Add more games below (you can key by CreatorId too, like Hina Hub):
+	[70863683083739] = { name = "Anime Dungeons", script_id = "https://raw.githubusercontent.com/Zerose-Hub/loader/refs/heads/main/ZeroseHub_Loader.lua" },
+	-- Add more games below ():
 	-- [game.CreatorId] = { name = "Another Game", script_id = "paste_id_or_url" },
 }
 
