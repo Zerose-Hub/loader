@@ -25,7 +25,7 @@ local Hub = "Zerose Hub"
 local Discord_Invite = "YOUR_DISCORD_INVITE"     -- e.g. "abc123" -> discord.gg/abc123
 
 -- The UI loader hosted on GitHub (edit the URL to your repo)
-local UI_LOADER = "https://raw.githubusercontent.com/<YOUR_USERNAME>/<YOUR_REPO>/main/Loader.lua"
+local UI_LOADER = "https://raw.githubusercontent.com/Zerose-Hub/loader/refs/heads/main/Loader.lua"
 
 -- 4) Scripts table: key by game.PlaceId or game.CreatorId.
 --    script_id = the script to run for that game. It can be:
